@@ -18,7 +18,7 @@
         <p>大v列表</p>
       </div>
       <div class="demo-text" v-if="active === 1">
-        <p>好友列表</p>
+        <Friendlist :friend="friend" />
       </div>
       <div class="demo-text" v-if="active === 2">
         <Shoplist :commodity="commodity" />
