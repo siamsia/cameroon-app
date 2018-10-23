@@ -1,3 +1,5 @@
+
+
 <template>
     <div class="friend">
         <div class="friend-search">
@@ -31,8 +33,8 @@
 </template>
 <script>
     export default {
-        props: ["friend"]
-    };
+        // props: ["friend"]
+    }
 </script>
 
 <style lang="scss">
